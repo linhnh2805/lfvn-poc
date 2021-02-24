@@ -1,0 +1,31 @@
+.row .alert-success, .row .alert-danger {
+  margin: auto;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.datepicker-dropdown {
+  top: 0;
+  left: 0;
+  padding: 4px;
+}
+
+.datepicker {
+  border-radius: 4px;
+  direction: ltr;
+}
+
+.datepicker td, .datepicker th {
+  width: 1.5em;
+  height: 1.5em;
+}
+
+table.table-review tr td:first-child {
+  font-weight: bold;
+}

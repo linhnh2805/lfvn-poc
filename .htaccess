@@ -1,0 +1,7 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^lfvn.local$ [NC,OR]
+RewriteCond %{HTTP_HOST} ^lfvn.local$
+RewriteRule ^app_images/(.*)$ /storage/app/public/user_images/$1 [L]
+
+RewriteCond %{REQUEST_URI} !(public|app_images)/
+RewriteRule (.*) /public/$1
